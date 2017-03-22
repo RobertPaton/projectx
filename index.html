@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project X</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1 class="hidden">The Vinyl Record</h1>
+    <section class="container-fluid">
+      <h1 class="hidden">Spinning Record</h1>
+      <div class="row">
+        <div class="col-xs-12" id="recordbg" data-slide='1' data-stellar-background-ratio='1'>
+          <img src="images/record.svg" alt="record" id="recordTop" data-stellar-ratio="0.5">
+        </div>
+      </div>
+    </section>
+    
+    <section class="container-fluid">
+      <h1 class="hidden">Title</h1>
+    	<div class="row">
+    		<div class="col-xs-12 slide" id="panel1" data-slide='4' data-stellar-background-ratio='2'>
+    			<h1 id="title" data-slide='4' data-stellar-background-ratio='2'>The Fall and Rise of the Vinyl Record</h1>
+    		</div>
+    	</div>
+    </section>
+
+    <!--<section class="container-fluid">
+      <div class="row">
+        <div class="fix">
+          <img src="images/recordbg.png" alt="Record Background" id="recordbg">
+        </div>
+    </section>-->
+
+    <section class="container-fluid">
+      <h1 class="hidden">Infographic Video</h1>
+      <div class="row">
+        <div class="col-xs-12 slide" id="panel2" data-stellar-background-ratio='0.5'>
+          <video id="video" controls data-stellar-ratio='2'>
+            <source src="video/infograph.mp4">
+            <source src="video/infograph.webm">
+            <source src="video/infograph.ogg">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid">
+      <h1 class="hidden">Call to Action</h1>
+      <div class="row">
+        <div class="col-cs-12 slide" id="panel3">
+          <h1 id="call">Don't let Vinyl die<br>Buy today for a better tomorrow</h1>
+          <h1 id="date">Record Store Day<br>April 15, 2015</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

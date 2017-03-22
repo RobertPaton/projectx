@@ -1,0 +1,92 @@
+body
+{
+	font-family: helvetica, arial, sans-serif;
+	background-color: #E5E5E5;
+}
+
+.hidden
+{
+	display: none;
+}
+
+h1
+{
+	color: #292627;
+	text-align: center;
+	margin: 0;
+}
+
+.fix
+{
+	padding: 0;
+}
+
+.slide
+{
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+#recordbg
+{
+	background-color: #2b2b2b;
+	height: 100px;
+	z-index: 90;
+	position: relative;
+}
+
+#recordTop
+{
+	width: 42vw;
+	margin-top: -10%;
+	position: absolute;
+	left: 50%;
+	margin-left: -21%;
+	z-index: 95;
+}
+
+#panel1
+{
+	background-color: #ebe9f7;
+	z-index: 100;
+	position: relative;
+	color: black;
+}
+
+#title
+{
+	padding-top: 20%;
+	font-size: 4.5em;
+}
+
+#panel2
+{
+	background-color: #2a2a2a;
+	z-index: 90;
+	position: relative;
+	color: black;
+}
+
+video
+{
+	width: 69.6%;
+	position: absolute;
+	left: 50%;
+	margin-left: -34.8%;
+	top: 10%;
+}
+
+.record
+{
+	width: 20%;
+}
+
+#panel3
+{
+	background-color: white;
+}
+
+#panel3 h1
+{
+	padding-top: 20%;
+}
